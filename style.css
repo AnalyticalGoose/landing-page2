@@ -1,10 +1,5 @@
 * {
-  border: 2px solid red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-body {
-  margin: 0rem 8rem;
 }
 
 .header-container,
@@ -18,7 +13,7 @@ body {
 
 .header-container {
   background-color: #1F2937;
-  padding: 0.5rem;
+  padding: 0.5rem 12rem;
 }
 
 .header-logo {
@@ -36,7 +31,7 @@ body {
 }
 
 .hero-container {
-  padding: 5rem 0rem;
+  padding: 5rem 12rem;
   gap: 5rem;
   justify-content: center;
   background-color: #1F2937;
@@ -45,6 +40,22 @@ body {
 .hero-main-text {
   font-size: 38px;
   color: #F9FAF8;
+  font-weight: bold;
+}
+
+.hero-subtext {
+  font-size: 14px;
+  color: #E5E7EB;
+}
+
+.sign-up-button {
+  background-color: #3882F6;
+  border: 2px solid #3882F6;
+  color: #F9FAF8;
+  font-size: 12px;
+  padding: 0.2rem 1rem;
+  margin: 0.3rem 0rem;
+  border-radius: 5px;
 }
 
 .hero-left,
@@ -56,6 +67,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #6d747d;
+  color: #E5E7EB;
+  font-size: 12px;
 }
 
 .tile-container {
@@ -67,6 +81,9 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
 }
 
 .illustration-container {
@@ -86,21 +103,58 @@ body {
   border-radius: 10%;
 }
 
+.illustration-subtext {
+  text-align: center;
+  font-size: 14px;
+  color: #1F2937;
+}
+
 .quote-container {
-  margin: 5rem 14rem;
+  margin: 5rem 22rem;
+}
+
+.main-quote {
+  font-size: 22px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .quote-author {
   text-align: right;
+  font-weight: bold;
+  color: #1F2937;
 }
 
 .cta-container {
-  margin: 4rem 7rem;
+  margin: 4rem 15rem;
   padding: 1.5rem 0rem;
   gap: 5rem;
   justify-content: center;
   background-color: #3882F6;
   border-radius: 10px;
+}
+
+.cta-header {
+  font-size: 18px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.cta-subtext {
+  font-size: 14px;
+  color: #E5E7EB;
+}
+
+.cta-button {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  border-radius: 5px;
+  width: 6rem;
+  height: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .footer {
